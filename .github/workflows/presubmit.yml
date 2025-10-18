@@ -30,6 +30,6 @@ jobs:
       - name: Run AI Reviewer
         uses: presubmit/ai-reviewer@latest
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
-          LLM_MODEL: "gemini-1.5-flash"
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+  LLM_MODEL: "gemini-1.5-pro" # Change from "gemini-1.5-flash"
